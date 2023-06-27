@@ -316,4 +316,14 @@ main {
   .testimonial-anne {
     transform: translateY(0);
   }
+  .pic-name {
+    display: grid;
+    grid-template-rows: min-content;
+    align-items: center;
+    grid-template-columns: max-content max-content;
+    column-gap: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  
 }
